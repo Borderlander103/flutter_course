@@ -21,9 +21,9 @@ Widget  _buildProductItem(BuildContext context, int index) {
   @override
     Widget build(BuildContext context) {
       print('[Products Widget] build()');
-      return ListView.builder(
+      return products.length > 0 ? ListView.builder(
         itemBuilder: _buildProductItem,
         itemCount: products.length,
-      );
+      ) : Center(child: Text('No Products found, please add some.'),);
     }
 }
