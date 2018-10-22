@@ -17,7 +17,7 @@ class AuthPage extends StatelessWidget {
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(
-                  builder: (BuildContext context) => ProductsPage()),
+                builder: (BuildContext context) => ProductsPage()),
             );
           },
         ),
