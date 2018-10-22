@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class ProductAdmin extends StatelessWidget {
+class ProductAdminPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Product Admin'),
+        title: Text('Manage Products'),
       ),
       body: Center(
-        child: Text("Blah, blah."),
+        child: Text("Manage your products."),
       ),
     );
   }

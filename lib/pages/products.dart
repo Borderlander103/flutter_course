@@ -17,17 +17,10 @@ class ProductsPage extends StatelessWidget {
             ListTile(
               title: Text('Manage Products'),
               onTap: () {
-                print('Manage Products pressed');
-              },
-            ),
-            ListTile(
-              title: Text('Product Admin'),
-              onTap: () {
-                print('Product Admin pressed');
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (BuildContext context) => ProductAdmin()),
+                    builder: (BuildContext context) => ProductAdminPage()),
                 );
               },
             ),
